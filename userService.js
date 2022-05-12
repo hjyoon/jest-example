@@ -1,6 +1,6 @@
-const data = require("./data");
+import data from "./data";
 
-module.exports = {
+export default {
   findAll() {
     return data.users;
   },

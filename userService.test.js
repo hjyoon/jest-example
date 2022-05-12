@@ -1,5 +1,5 @@
-const userService = require("./userService");
-const data = require("./data");
+import userService from "./userService";
+import data from "./data";
 
 describe("index", () => {
   beforeEach(() => {
